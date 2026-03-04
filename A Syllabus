@@ -1,0 +1,67 @@
+MLOps:
+___________________-
+course syllabus
+1.Intro to MLops:
+what is m/c learning and what is model?
+How is a model created in realtime (detailed steps)
+What is MLops
+M/c learning Lifecycle overview
+Data Sceientist vs ML engineer vs MLOPS engineer
+_________________________-
+Understand role of MLOps in LM Life cycle at high level--project based
+1.Intro project
+2/Learn how Datascientist work with & without MLops pratices
+3.Learn how MLOPS engineers help datasceinets
+4.Role of ML Engineers iin a project at high level
+5.Learn how MLOps Engineers help ML Engineers with Model deployment
+___________------
+Data versioning and Data version control(DVC)
+6.What is Data Versioning--why git isn't enough?
+7.Intro to DVC (Data Version Control)
+8.DVC Realtime hands-on(DVC+AWS S3)
+______________________________
+Exp tracking and MLFlow
+9.Intro to Experment tracking
+10.what is MLflow
+11.Basic MLFlow installation
+12.basic mlflow installation on k8s
+13.MLFlow production setup using pogress
+14.DVC+MLflow
+_____________________-
+fundamentals of model deployment & model serving
+15.Intro
+16.popular ways to deploy and serve models in production by MLops engineers
+17.Intent classifier model
+______________---
+model deplo & serving using virtual m/cs:
+18.Architeture
+19.implementing WSGI
+20 understand script for implementation
+21.cleanup resources
+________________________-
+Model deployment and serving using k8s
+22.Architecture
+23.Implement wsgi
+24.prepare dockerfile for project
+25.running & testing docker image locally
+26.pushing the image to a model registry
+27.creating and managing a k8s cluster
+28.preparing k8s ,amifests for model dep
+_________________
+kserve
+29.intro kserve
+30 kserve architecture
+31.kserve end to end demo for the intent classifier model
+32.kserve for LLMops
+______________
+AWS Sagemaker AI
+
+33.Intro to Amazon sagemaker AI
+34.Amazon SageMaker production setup
+35.create and save models to registry using sagemaker
+36.deploy and seve model to registry using sage,maker
+______________
+CI/CD models
+Kubeflow pipeline comple
+CI/CD for ML using Githubactions
+

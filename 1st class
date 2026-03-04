@@ -1,0 +1,55 @@
+we can deploy application to production using devops flow , k8s etc why MLops needed?
+Machine Learning is different from normal software because models learn from data and their performance can change over time.
+So ML systems follow a Model Lifecycle to ensure the model is trained, validated, deployed, and continuously improved.
+_____________________
+interview answer
+1.MLOps:
+“MLOps (Machine Learning Operations) is the practice of applying DevOps principles like CI/CD, automation, and monitoring to the machine learning lifecycle.
+It manages the end-to-end process of data preparation, model training, versioning, deployment, and monitoring. 
+The goal is to reliably deploy ML models into production and continuously improve them as data and performance change.”
+
+role---mlops
+“From a DevOps/SRE perspective, my role in MLOps was mainly around building and maintaining the infrastructure and automation pipelines. 
+This included containerizing ML workloads using Docker, deploying model services on Kubernetes, integrating experiment tracking tools like MLflow,
+and implementing CI/CD pipelines with Jenkins and ArgoCD to automate model deployment and version upgrades.”
+______________________________________________________________________
+1.Build
+2.Test
+3.Deploy
+4.Monitor
+5.Update
+____________________________________
+Devops vs MLOps:
+| Layer            | DevOps Tools            | MLOps Tools       |
+| ---------------- | ----------------------- | ----------------- |
+| CI/CD            | Jenkins, GitHub Actions | Same              |
+| Container        | Docker                  | Same              |
+| Deployment       | ArgoCD                  | Same              |
+| Orchestration    | Kubernetes              | Same              |
+| Data Versioning  | ❌                       | DVC               |
+| Model Tracking   | ❌                       | MLflow            |
+| Feature Store    | ❌                       | Feast             |
+| ML Pipeline      | ❌                       | Kubeflow, Airflow |
+| Model Monitoring | Limited                 | Evidently AI      |
+
+____________________________________________________________________
+The typical ML lifecycle has these stages:
+Problem Definition (First we define the business problem.Examples: Fraud detection, Product recommendation ,Spam email detection, Predicting customer churn
+                     Goal: Detect fraudulent transactions
+        ↓
+Data Collection     (ML models learn from historical data.eg: DBS, Logs, Sensores, application events, user activity,-----eg: Transaction amount,
+location,device type, time, fraud or not fraud-------
+Location
+Device type
+Time
+Fraud or not fraud
+        ↓
+Data Preparation
+        ↓
+Model Training(Now the ML algorithm learns patterns from data.Linear Regression,Random Forest,XGBoost,Neural Networks,Model Evaluation
+        ↓
+Model Deployment
+        ↓
+Monitoring
+        ↓
+Retraining

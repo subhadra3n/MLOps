@@ -1,0 +1,12 @@
+specific for MLOPS:
+
+1.numpy-used in numerical commputing
+2.pandas--used in data manipulation
+3.scitlearn----core ml library
+4.mlflow----experiment mtracking & model registry
+5.dvc-----data & model versioning
+6.fastapi----api for model serving
+7.optona & xgboost---hyper parameter tuning
+8.pyyaml-yaml
+9.pytest--tests
+10.joblib------model serialization
